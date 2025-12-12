@@ -38,6 +38,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onLogout }) => {
   const [newInspection, setNewInspection] = useState<Partial<InspectionData>>({
     inspectorName: '',
     location: '',
+    Date: '',
     deficienciesFound: 0,
     detained: false,
     comments: ''
